@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website live demo
-  <a href="https://emilypmendez.netlify.app/" target="_blank">EmilyPMendez Portfolio</a>
+  <a href="https://emilypmendez-portfolio.heroku.com/" target="_blank">EmilyPMendez Portfolio</a>
 </h2>
 
 ## Built With

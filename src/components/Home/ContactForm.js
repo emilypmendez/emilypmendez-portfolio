@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
-import { send } from "emailjs-com";
+// import { send } from "emailjs-com";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";

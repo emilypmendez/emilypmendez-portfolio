@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Form() {
+export default function Form2() {
   return (
     <form name="contact" method="post">
       <input type="hidden" name="form-name" value="contact" />

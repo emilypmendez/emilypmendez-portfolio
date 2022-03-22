@@ -29,8 +29,7 @@ Contact Form built with...
 
 - React
 - React Hook Form
-- EmailJS
-- React Toastify
+- Netlify
 - Bootstrap
 
 ## Getting Started

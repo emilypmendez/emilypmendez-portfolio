@@ -44,7 +44,12 @@ export default function Form2() {
         <div className="row">
           <div className="col-12 text-center">
             <div className="contactForm">
-              <form name="contact" method="post" id="contact-form">
+              <form
+                name="contact"
+                method="post"
+                id="contact-form"
+                data-netlify="true"
+              >
                 {/* Row 1 of form */}
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="row formRow">

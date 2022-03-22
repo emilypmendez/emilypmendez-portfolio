@@ -262,7 +262,7 @@ html {
 
 .home-header {
   padding-top: 80px !important;
-  padding-left: 100px;
+  padding-left: 80px;
   position: relative;
 }
 
@@ -276,36 +276,48 @@ html {
 }
 
 .home-content {
-  padding: 6rem 0 0rem !important;
+  padding: 5rem 0 0rem !important;
   color: #414141;
   text-align: left;
 }
 
 .heading-description {
-  margin-left: 75px !important;
-}
-.heading-type {
-  padding-left: 75px;
-  text-align: "left";
+  margin-left: 65px !important;
 }
 
-.heading {
+.heading-type { /* typewriter content */
+  padding-left: 65px;
+  text-align: left;
+}
+
+.heading { /* Top line (in heading) */
   font-size: 2.4em !important;
-  padding-left: 75px !important;
+  padding-left: 65px !important;
 }
 
-.heading-name {
+.heading-name { /* Name listed (in heading) */
   font-size: 2.5em !important;
-  padding-left: 75px !important;
+  padding-left: 65px !important;
 }
 
-.heading-additional-text {
-  margin-left: 75px;
+.heading-additional-text { /* Additional text (in heading) */
+  margin-left: 65px! important;
 }
 
 .main-name {
   color: #414141;
 }
+
+/* @media (max-width: 767px) {
+  .profile-pic {
+    border-radius: 50%;
+    height: 80%;
+    width: 50%;
+    margin-top: 12%;
+    margin-left: 15%;
+  }
+} */
+
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
@@ -870,7 +882,7 @@ html {
     height: 80%;
     width: 50%;
     margin-top: 12%;
-    margin-left: 25%;
+    margin-left: 15%;
   }
 }
 

@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImage from "../../assets/emilypmendez.jpg";
-import ContactForm from "./ContactForm";
+// import ContactForm from "./ContactForm";
+import Form2 from "./Form2";
 import TypeWriter from "./TypeWriter";
 import Marquee from "react-fast-marquee";
 import MarqueeComponent from "./MarqueeComponent";
@@ -93,7 +94,7 @@ function Home() {
                 <strong>Feel free to connect with me!</strong>
               </p>
               <br />
-              <ContactForm />
+              <Form2 />
             </Col>
           </Row>
         </Container>

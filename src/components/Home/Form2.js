@@ -1,21 +1,21 @@
 import React from "react";
-import { ToastContainer, toast } from "react-toastify";
+// import { ToastContainer, toast } from "react-toastify";
 import { useForm } from "react-hook-form";
 
 export default function Form2() {
   // Function that displays a success toast on bottom right of the page when form submission is successful
-  const toastifySuccess = () => {
-    toast("Form successfully sent to Emily!", {
-      position: "bottom-right",
-      autoClose: 5000,
-      hideProgressBar: true,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: false,
-      className: "submit-feedback success",
-      toastId: "notifyToast"
-    });
-  };
+  // const toastifySuccess = () => {
+  //   toast("Form successfully sent to Emily!", {
+  //     position: "bottom-right",
+  //     autoClose: 5000,
+  //     hideProgressBar: true,
+  //     closeOnClick: true,
+  //     pauseOnHover: true,
+  //     draggable: false,
+  //     className: "submit-feedback success",
+  //     toastId: "notifyToast"
+  //   });
+  // };
 
   const {
     register,
@@ -164,7 +164,7 @@ export default function Form2() {
                 </div>
               </form>
             </div>
-            <ToastContainer className="toastifySuccess" />
+            {/*<ToastContainer className="toastifySuccess" />*/}
           </div>
         </div>
       </div>

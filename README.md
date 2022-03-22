@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website live demo
-  <a href="https://emilypmendez-portfolio.herokuapp.com/" target="_blank">EmilyPMendez Portfolio</a>
+  <a href="https://emilypmendez-portfolio.netlify.app/" target="_blank">EmilyPMendez Portfolio</a>
 </h2>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ebe3ba7e-82ce-4f65-a51e-7915a453d195/deploy-status)](https://app.netlify.com/sites/emilypmendez-portfolio/deploys)

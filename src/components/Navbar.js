@@ -66,7 +66,13 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="/books" rel="noreferrer">
+              <Nav.Link
+                as={Link}
+                to="/books"
+                href="/books"
+                rel="noreferrer"
+                onClick={() => updateExpanded(false)}
+              >
                 <IoBookSharp style={{ marginBottom: "2px" }} /> Book
                 Recommendations
               </Nav.Link>

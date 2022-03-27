@@ -49,6 +49,7 @@ function ResumeNew() {
             href={pdf}
             target="_blank"
             className="download-button"
+            rel="noopener noreferrer"
           >
             <AiOutlineDownload />
             &nbsp;&nbsp;Download CV

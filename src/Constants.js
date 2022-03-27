@@ -3,8 +3,11 @@ import DAPP_EXCHANGE from "./assets/projects/dapp-exchange.png";
 import NASA from "./assets/projects/nasa.png";
 import OPEN_ENGINE from "./assets/projects/open-engine.png";
 import URBAN_ENGINE from "./assets/projects/urban-engine.png";
+import PRODUCTIVITY_APP from "./assets/projects/productivity-app.png";
+import POKEDEX from "./assets/projects/pokedex-epm.png";
 import APHASIA_TIPS from "./assets/projects/aphasia-tips.png";
 import GENOME_GATEWAY from "./assets/projects/genome-gateway.png";
+
 // BOOKS
 import TOOLS_OF_TITANS from "./assets/books/toolsoftitans.png";
 import PRINCIPLES from "./assets/books/principles.png";
@@ -39,12 +42,28 @@ export const PROJECTS = [
     technologyUsed: "VueJS, Firebase, Solidity",
     description:
       "The web app that helps investors earn social credibility tax credits through the power of blockchain technology. This is an ongoing economic development project under open source development.",
+    url: "https://www.canva.com/design/DAE4jkhZdic/pI6s9BkzfgzXLpEhIHzGfQ/view?utm_content=DAE4jkhZdic&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+  },
+  {
+    image: PRODUCTIVITY_APP,
+    name: "Open Engine App",
+    technologyUsed: "Canva, HTML, CSS, ReactJS",
+    description:
+      "An app built for entrepreneurs with productivity concerns. This app is meant to reduce time to task, increase cashflow, and put some peace of mind back into your life.",
     url: "http://www.openengineapp.com/"
+  },
+  {
+    image: POKEDEX,
+    name: "Pokédex App",
+    technologyUsed: "HTML, CSS, ReactJS",
+    description:
+      "The Pokédex is an electronic device created and designed to catalog and provide information regarding the various species of Pokémon featured in the Pokémon video game, anime and manga series.",
+    url: "http://pokedex-epm.netlify.app/"
   },
   {
     image: URBAN_ENGINE,
     name: "Urban Engine 501c(3)",
-    technologyUsed: "Javascript, HTML, CSS, Squarespace",
+    technologyUsed: "HTML, CSS, Javascript, Squarespace",
     description:
       "Leading community initiatives with a nonprofit organization on mission to propel the growth of North Alabama’s economy through programs accelerating innovation with aspiring entrepreneurs and established business leadership.",
     url: "http://www.urbanengine.org/"

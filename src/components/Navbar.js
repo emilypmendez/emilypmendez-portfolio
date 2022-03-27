@@ -48,6 +48,7 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/project"
+                rel="noopener noreferrer"
                 onClick={() => updateExpanded(false)}
               >
                 <FaProjectDiagram style={{ marginBottom: "2px" }} /> View
@@ -59,6 +60,7 @@ function NavBar() {
               <Nav.Link
                 as={Link}
                 to="/resume"
+                rel="noopener noreferrer"
                 onClick={() => updateExpanded(false)}
               >
                 <RiFilePaper2Line style={{ marginBottom: "2px" }} /> View Resume
@@ -70,7 +72,7 @@ function NavBar() {
                 as={Link}
                 to="/books"
                 href="/books"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 onClick={() => updateExpanded(false)}
               >
                 <IoBookSharp style={{ marginBottom: "2px" }} /> Book

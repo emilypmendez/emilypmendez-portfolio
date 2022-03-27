@@ -1,5 +1,6 @@
 import React from "react";
 
+import unicornLeft from "../../assets/skills/unicorn.png";
 import jsLogo from "../../assets/skills/js-logo.png";
 import reactLogo from "../../assets/skills/react-logo.png";
 import reduxLogo from "../../assets/skills/redux-logo.png";
@@ -11,9 +12,13 @@ import solidity from "../../assets/skills/solidity-logo.png";
 import ganache from "../../assets/skills/ganache-logo.png";
 import truffle from "../../assets/skills/truffle-logo.png";
 import nodejs from "../../assets/skills/nodejs-logo.png";
+import unicornRight from "../../assets/skills/unicorn-right.png";
+import websiteLogo from "../../assets/skills/logo.png";
 
 const MarqueeComponent = () => (
   <>
+    <img src={unicornLeft} width={75} height={75} alt="unicorn-face-left" />
+
     <img src={html5Logo} width={75} height={75} alt="html5 logo" />
 
     <img src={css3Logo} width={75} height={75} alt="css3 logo" />
@@ -35,6 +40,10 @@ const MarqueeComponent = () => (
     <img src={ganache} width={75} height={75} alt="ganache logo" />
 
     <img src={truffle} width={75} height={75} alt="truffle logo" />
+
+    <img src={unicornRight} width={75} height={75} alt="unicorn-face-right" />
+
+    <img src={websiteLogo} width={125} height={125} alt="website logo" />
   </>
 );
 

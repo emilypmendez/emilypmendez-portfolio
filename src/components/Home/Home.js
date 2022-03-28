@@ -57,7 +57,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Container fluid className="home-about-section" id="about">
+
         <Container>
           <Row>
             <Col md={12} className="home-about-social blockquote">
@@ -86,19 +86,19 @@ function Home() {
         <Container>
           <Row>
             <Col md={12} className="home-about-social blockquote">
-              <h1>Let's Get Connected</h1>
+              <h1 className="project-heading">Let's Get Connected</h1>
               <p>
                 {" "}
                 Want to get in touch or talk about a project collaboration?
                 <br />
-                <strong>Feel free to connect with me!</strong>
+                <strong>Looking forward to hearing from you!</strong>
               </p>
               <br />
               <Form2 />
             </Col>
           </Row>
         </Container>
-      </Container>
+
     </section>
   );
 }

@@ -1,9 +1,11 @@
-// PROJECTS
+// web3 BLOCKCHAIN PROJECTS
 import DAPP_EXCHANGE from "./assets/projects/dapp-exchange.png";
-import NASA from "./assets/projects/nasa.png";
 import OPEN_ENGINE from "./assets/projects/open-engine.png";
-import URBAN_ENGINE from "./assets/projects/urban-engine.png";
 import PRODUCTIVITY_APP from "./assets/projects/productivity-app.png";
+
+// web2 ORGANIC PROJECTS
+import NASA from "./assets/projects/nasa.png";
+import URBAN_ENGINE from "./assets/projects/urban-engine.png";
 import POKEDEX from "./assets/projects/pokedex-epm.png";
 import APHASIA_TIPS from "./assets/projects/aphasia-tips.png";
 import GENOME_GATEWAY from "./assets/projects/genome-gateway.png";
@@ -18,7 +20,7 @@ import NEVER_SPLIT_THE_DIFF from "./assets/books/neversplitthedifference.png";
 import SPRINT from "./assets/books/sprint.png";
 import FOOLED_BY_RANDOMESS from "./assets/books/foolsbyrandomness.png";
 
-export const PROJECTS = [
+export const BLOCKCHAIN_PROJECTS = [
   {
     image: DAPP_EXCHANGE,
     name: "Dapp Token Exchange",
@@ -27,14 +29,6 @@ export const PROJECTS = [
       "A decentralized app built on the Ethereum blockchain. This is a web application that displays real-time data for exchanging tokens, all while connected to your Metamask wallet.",
     url:
       "https://www.figma.com/file/JsRrbqlOWRvw5MdIeQF2zl/DApp-Token-Exchange?node-id=0%3A1"
-  },
-  {
-    image: NASA,
-    name: "NASA",
-    technologyUsed: "ServiceNow, Javascript ES5, Angular 1.5x",
-    description:
-      "Contributing to ServiceNow enterprise software application interfaces and managing end-user accounts across mobile, computer, and other technologies for over 50,000 users.",
-    url: "http://www.nasa.gov"
   },
   {
     image: OPEN_ENGINE,
@@ -47,10 +41,21 @@ export const PROJECTS = [
   {
     image: PRODUCTIVITY_APP,
     name: "Open Engine App",
-    technologyUsed: "Canva, HTML, CSS, ReactJS",
+    technologyUsed: "Canva, ReactJS, Solidity",
     description:
       "An app built for entrepreneurs with productivity concerns. This app is meant to reduce time to task, increase cashflow, and put some peace of mind back into your life.",
     url: "http://www.openengineapp.com/"
+  }
+];
+
+export const ORGANIC_PROJECTS = [
+  {
+    image: NASA,
+    name: "NASA",
+    technologyUsed: "ServiceNow, Javascript ES5, Angular 1.5x",
+    description:
+      "Contributing to ServiceNow enterprise software application interfaces and managing end-user accounts across mobile, computer, and other technologies for over 50,000 users.",
+    url: "http://www.nasa.gov"
   },
   {
     image: POKEDEX,

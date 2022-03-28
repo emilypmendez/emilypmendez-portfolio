@@ -7,7 +7,7 @@ function Books() {
   return (
     <Container fluid className="project-section">
       <Container>
-        <h1 className="project-heading">
+        <h1 className="project-header">
           <strong className="purple">Book Recommendations</strong>
         </h1>
         <p style={{ color: "grey" }} className="blockquote">

@@ -12,9 +12,38 @@ html {
   margin-bottom: 10px;
 }
 
-.toastifySuccess {
-  background-color: #0c74ad;
-  color: #fff;
+/* DARK THEME OPTIONS */
+
+:root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+}
+
+[data-theme='dark'] {
+  --background: #05496d;
+  --text-primary: white;
+  --text-secondary: grey;
+  --accent: darkred;
+}
+
+.dark-theme {
+  color: var(--text-primary);
+  background-color: var(--background);
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+  height: calc(100vh - 40px);
+  transition: all .5s;
+}
+
+button {
+  color: var(--text-primary);
+  background-color: var(--background);
+  border: 2px var(--text-primary) solid;
+  float: right;
+  transition: all .5s;
 }
 
 /* .col {
@@ -462,7 +491,7 @@ html {
   background-color: #096a9e;
   bottom: 0 !important;
 }
-.footer-copywright {
+.footer-copyright {
   text-align: center !important;
   margin-top: 20px;
 }
@@ -472,7 +501,7 @@ html {
 }
 
 @media (max-width: 767px) {
-  .footer-copywright {
+  .footer-copyright {
     text-align: center !important;
   }
 
@@ -497,6 +526,8 @@ html {
   color: #096a9e !important;
   font-weight: bold;
 }
+
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -673,6 +704,9 @@ html {
     padding-top: 0 !important;
   }
 }
+
+
+
 /* --------- */
 /* Resume Page */
 /* --------- */

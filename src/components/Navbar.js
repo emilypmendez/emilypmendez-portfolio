@@ -6,10 +6,20 @@ import { Link } from "react-router-dom";
 import { IoBookSharp } from "react-icons/io5";
 import { FaProjectDiagram } from "react-icons/fa";
 import { RiFilePaper2Line } from "react-icons/ri";
+// import DarkMode from "../DarkMode"
+// import useLocalStorage from 'use-local-storage'
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  // const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  // const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+
+  // const switchTheme = () => {
+  //   const newTheme = theme === 'light' ? 'dark' : 'light';
+  //   setTheme(newTheme);
+  // }
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -29,8 +39,8 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
-          <strong>EmilyPMendez.com</strong>
+        <Navbar.Brand href="/" rel="noopener noreferrer">
+          <strong>EmilyPMendez.com</strong><br/>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -44,6 +54,15 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
+            <Nav.Item>
+                { /* // <center>
+                //   <div className="dark-mode" data-theme={theme}>
+                //     <button onClick={switchTheme}>
+                //       Switch to {theme === 'light' ? 'Dark' : 'Light'} Theme
+                //     </button>
+                //   </div>
+                // </center> */}
+            </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}

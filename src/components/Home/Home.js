@@ -61,7 +61,7 @@ function Home() {
         <Container>
           <Row>
             <Col md={12} className="home-about-social blockquote">
-              <h1>About Her</h1>
+              <h1>Always Learning</h1>
               <br />
               <p>
                 Award-winning developer with more than 8 years of well-rounded
@@ -93,8 +93,9 @@ function Home() {
                 <br />
                 <strong>Looking forward to hearing from you!</strong>
               </p>
-              <br />
+
               <Form2 />
+              <br/>
             </Col>
           </Row>
         </Container>
